@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <script
+      defer
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="topnav" id="myTopnav">
+      <div class="dropdown" id="dropdown">
+        <button class="dropbtn" id="dropbtn">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </button>
+        <div class="dropdown-content" id="dropdown-content">
+          <a id="linkOne">Burgers</a>
+          <a id="linkTwo">Tacos</a>
+        </div>
+      </div>
+    </div>
+    <button class="top-button" id="top-button">⬆</button>
+
+    <section class="menu" id="menu"></section>
+
+    <section class="menu" id="menu2"></section>
+  </body>
+</html>
